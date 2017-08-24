@@ -67,7 +67,7 @@ $isProduction = 'production' === getenv('APP_ENV');
 
                     <!-- Tab panes -->
                     <div class="tab-content result full-height">
-                        <div role="tabpanel" class="tab-pane active result-html syncscroll" id="html" name="source"></div>
+                        <div role="tabpanel" class="tab-pane active result-html" id="html" name="source"></div>
                         <pre role="tabpanel" class="tab-pane result-src" id="src"><code class="result-src-content full-height"></code></pre>
                         <pre role="tabpanel" class="tab-pane result-debug" id="debug"><code class="result-debug-content full-height"></code></pre>
                     </div>
